@@ -29,7 +29,7 @@ app.post("/",function(req,res){
     ]
   };
   const jsonData = JSON.stringify(data);
-  const url = 'https://us20.api.mailchimp.com/3.0/lists/7ab16f2b9/?skip_merge_validation=false&skip_duplicate_check=false';
+  const url = 'https://us20.api.mailchimp.com/3.0/lists/7ab1f6f2b9/?skip_merge_validation=false&skip_duplicate_check=false';
   const options = {
     method: 'POST',
     auth: 'user:e3ffa8bf0bc5a54a31a0dd09c512bbcc-us20'
